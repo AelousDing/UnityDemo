@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Transitions/Scripts/Transiton.uss?fileID=7433441132597879392&amp;guid=0c30e1e1fabbb8f4d929c7c4c4568b74&amp;type=3#Transiton" />
+    <ui:VisualElement name="Container">
+        <ui:VisualElement name="Menu" class="pop-animation-hide">
+            <ui:VisualElement name="Navigation">
+                <ui:VisualElement name="MainNav">
+                    <ui:Label tabindex="-1" text="CONTINUE" display-tooltip-when-elided="true" name="Options" class="pop-animation-hide" />
+                    <ui:Label tabindex="-1" text="NEW GAME" display-tooltip-when-elided="true" name="Options" class="pop-animation-hide" />
+                    <ui:Label tabindex="-1" text="MULTIPLAYER" display-tooltip-when-elided="true" name="Options" class="pop-animation-hide" />
+                    <ui:Label tabindex="-1" text="SETTINGS" display-tooltip-when-elided="true" name="Options" class="pop-animation-hide" />
+                    <ui:Label tabindex="-1" text="QUIT" display-tooltip-when-elided="true" name="Options" class="pop-animation-hide" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="DecorativeBar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Header" />
+            <ui:VisualElement name="Body">
+                <ui:VisualElement name="WidgetContainer">
+                    <ui:VisualElement name="Image" />
+                    <ui:VisualElement name="NavContainer">
+                        <ui:VisualElement name="Selector" class="selector-filled" />
+                        <ui:VisualElement name="Selector" />
+                        <ui:VisualElement name="Selector" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="WidgetContainer">
+                    <ui:VisualElement name="Image" />
+                    <ui:VisualElement name="NavContainer">
+                        <ui:VisualElement name="Selector" class="selector-filled" />
+                        <ui:VisualElement name="Selector" />
+                        <ui:VisualElement name="Selector" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
