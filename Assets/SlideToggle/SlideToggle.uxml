@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SlideToggle/SlideToggle.uss?fileID=7433441132597879392&amp;guid=2a7880e86936db94da6ab2dc2563a063&amp;type=3#SlideToggle" />
+    <Controls.SlideToggle label="Dd" />
+</ui:UXML>
